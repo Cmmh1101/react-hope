@@ -19,7 +19,7 @@ const Navigation = (props) => {
       <Navbar className="nav" expand="md" dark>
         <div className="container p-0">
           <NavbarBrand href="/" className="logo-container">
-            <img src="../images/logobrand.png" alt="logo" />
+            <img src="../images/hopeforthenationslogo.png" alt="logo" />
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
