@@ -31,21 +31,24 @@ const Navigation = (props) => {
               </NavItem>
               <NavItem tag="li">
                 <NavLink
-                  to={{ pathname: "https://carlamontano.tech" }}
+                  to={{
+                    pathname:
+                      "https://www.paypal.com/donate?hosted_button_id=JWBZEQHW76WC4",
+                  }}
                   target="_blank"
                   onClick={toggle}
                 >
-                  Portfolio
+                  Donate
                 </NavLink>
               </NavItem>
               <NavItem tag="li">
                 <NavLink to="/about" onClick={toggle}>
-                  About
+                  About Us
                 </NavLink>
               </NavItem>
               <NavItem tag="li">
                 <NavLink tag="a" to="/articles-list" onClick={toggle}>
-                  Blog
+                  Programs
                 </NavLink>
               </NavItem>
               <NavItem tag="li">

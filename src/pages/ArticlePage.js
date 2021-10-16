@@ -2,7 +2,7 @@ import React from "react";
 import articleContent from "./article-content";
 import ArticlesList from "../components/ArticlesList";
 import ShareButtons from "../components/ShareButtons";
-import NotFoundPage from "../Pages/404page";
+import NotFoundPage from "../pages/404page";
 import { Jumbotron } from "reactstrap";
 
 const ArticlePage = ({ match }) => {
