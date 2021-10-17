@@ -2,14 +2,15 @@ import React from "react";
 import Hero from "../components/Hero";
 import ArticlesList from "../components/ArticlesList";
 import articleContent from "./article-content";
+import GetInvolved from "../components/GetInvolved";
 
 const HomePage = () => (
   <>
     <Hero />
     <div className="container">
       <div className="row">
-        <div className="col mt-5">
-          <h2>Our Programs</h2>
+        <div className="col-12 mt-5">
+          <GetInvolved />
         </div>
       </div>
     </div>

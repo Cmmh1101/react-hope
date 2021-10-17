@@ -9,6 +9,7 @@ import "./pages/articlePage.css";
 import "./components/footer.css";
 import "./components/shareButtons.css";
 import "./pages/contactPage.css";
+import "./components/getInvolved.css";
 
 import {
   BrowserRouter as Router,

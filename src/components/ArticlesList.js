@@ -5,6 +5,9 @@ import { Stagger, FadeTransform } from "react-animation-components";
 const ArticlesList = ({ articles }) => (
   <Stagger in className="container">
     <div className="row programs">
+      <div className="col-12 mt-5">
+        <h2>Our Programs</h2>
+      </div>
       <div className="col-12 col-lg-10 mx-auto article-list-item-container">
         {articles.map((article, key) => (
           <FadeTransform
