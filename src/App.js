@@ -10,6 +10,7 @@ import "./components/footer.css";
 import "./components/shareButtons.css";
 import "./pages/contactPage.css";
 import "./components/getInvolved.css";
+import "./components/gallery.css";
 
 import {
   BrowserRouter as Router,
