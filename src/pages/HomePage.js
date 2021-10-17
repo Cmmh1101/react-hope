@@ -9,7 +9,7 @@ const HomePage = () => (
     <div className="container">
       <div className="row">
         <div className="col mt-5">
-          <h2>Stories</h2>
+          <h2>Our Programs</h2>
         </div>
       </div>
     </div>
