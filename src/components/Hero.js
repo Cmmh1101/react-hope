@@ -16,29 +16,18 @@ const Hero = () => (
               }}
               delay="300"
             >
-              <h1>Welcome to my world!</h1>
+              <h1>Hope For The Nations</h1>
 
-              <p>
-                This is where I share my journey's ups and downs to support
-                others to grow together in tech!
-              </p>
-              <Link to="/articles-list">
-                <i className="fa fa-hand-o-right" />
-                Explore Blog
-              </Link>
-              <p className="memo mt-5">
-                Web Developer | Educator | Mom | Wife | Lifelong Learner
-              </p>
+              <p>Blessing our communities with love and hope</p>
+              <Link to="/articles-list">Get Involved</Link>
             </FadeTransform>
           </div>
         </div>
       </div>
 
-      <img
-        className="hero-image"
-        src="../images/heroimg.png"
-        alt="giving a hand to help"
-      />
+      <img className="hero-image" src="../images/heroimg.png" alt="" />
+
+      <img className="wave" src="../images/wavy-loops-bottom.svg" alt="" />
     </Jumbotron>
   </>
 );

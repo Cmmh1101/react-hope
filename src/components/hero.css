@@ -16,25 +16,41 @@
   object-fit: cover;
   z-index: 0;
 }
+
+.wave {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: -130px;
+  left: 0;
+  z-index: 1;
+}
 .hero-text {
+  font-weight: 300;
   background-color: var(--overlay);
-  text-align: center;
+  text-align: left;
   padding: 40px;
   border-radius: 5px;
   z-index: 3;
 }
 
 .hero-text h1 {
+  font-weight: 500;
+  color: var(--light-blue);
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .hero-text a {
-  color: var(--blue);
+  color: var(--white);
   background-color: none;
   text-transform: uppercase;
   transition: var(--transition);
   margin: 30px 0;
+  padding: 5px 15px;
+  border-radius: 5px;
   font-weight: 600;
+  background-color: var(--light-blue);
 }
 .hero-text a:hover {
   text-decoration: none;
