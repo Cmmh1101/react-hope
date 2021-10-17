@@ -34,7 +34,7 @@ const GetInvolved = () => {
         <div className="col-md-6 involve-area">
           <div className="get-involved d-flex justify-content-center flex-column">
             <div className="donate-area text-center mx-auto my-3 my-md-5">
-              <a className="disabled" href="#" target="_blank">
+              <a className="disabled" disabled target="_blank">
                 <div className="involve-img Volunteer">
                   <img
                     src="../images/volunteer.png"

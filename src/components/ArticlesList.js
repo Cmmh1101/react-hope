@@ -28,6 +28,7 @@ const ArticlesList = ({ articles }) => (
               <div className="image-container">
                 <img className="article-thumbnail" src={article.image} alt="" />
               </div>
+
               {/* <div className="article-description ml-sm-4">
                       <span className="memo">Published: {article.date}</span>
                       <p>

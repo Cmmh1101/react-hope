@@ -32,6 +32,7 @@
   align-items: center;
   z-index: 4;
   width: 100%;
+  background-color: #daf1f8 !important;
 }
 
 .nav ul li {
@@ -51,7 +52,7 @@
 .nav ul li a:hover {
   text-decoration: none;
   letter-spacing: 1.5px;
-  color: #3b79ec;
+  color: var(--light-blue);
 }
 
 @media (max-width: 768px) {
