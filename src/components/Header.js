@@ -7,7 +7,7 @@ const Header = () => (
     <Jumbotron className="header m-0">
       <div className="container">
         <div className="row">
-          <div className="col-lg-10 mx-auto hero-text">
+          <div className="col-sm-7 col-lg-6 mx-auto hero-text">
             <FadeTransform
               in
               transformProps={{
@@ -15,17 +15,13 @@ const Header = () => (
               }}
               delay="300"
             >
-              <h1>Latest Stories</h1>
+              <h1>Our Recent Programs</h1>
             </FadeTransform>
           </div>
         </div>
       </div>
 
-      <img
-        className="hero-image"
-        src="../images/journal.jpg"
-        alt="giving a hand to help"
-      />
+      <img className="hero-image" src="../images/hunger3.png" alt="" />
     </Jumbotron>
   </>
 );

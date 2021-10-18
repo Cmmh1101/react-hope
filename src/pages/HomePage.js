@@ -4,6 +4,7 @@ import ArticlesList from "../components/ArticlesList";
 import articleContent from "./article-content";
 import GetInvolved from "../components/GetInvolved";
 import Gallery from "../components/Gallery";
+import Quote from "../components/Quote";
 
 const HomePage = () => (
   <>
@@ -18,6 +19,8 @@ const HomePage = () => (
     </div>
     <Gallery />
     <ArticlesList articles={articleContent} className="home_article_list" />
+
+    <Quote />
   </>
 );
 

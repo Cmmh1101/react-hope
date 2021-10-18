@@ -24,7 +24,7 @@ const ArticlePage = ({ match }) => {
       <Jumbotron className="header">
         <div className="container">
           <div className="row">
-            <div className="col-lg-10 col-xl-8 mx-auto hero-text">
+            <div className="col-sm-7 col-lg-6 mx-auto hero-text">
               <h1>{article.title}</h1>
             </div>
           </div>
@@ -35,21 +35,20 @@ const ArticlePage = ({ match }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-10 my-3 mx-auto">
-            <h4>
-              <em>{article.description}</em>
-            </h4>
-            <span>{article.date}</span>
+            <h3>{article.description}</h3>
+            {/* <span>{article.date}</span> */}
           </div>
           <div className="col-lg-10 mx-auto">
             {article.content.map((paragraph, key) => (
               <p key={key}>{paragraph}</p>
             ))}
-            <ShareButtons />
+            {/* <ShareButtons /> */}
 
-            <h3 className="subtitle">Related Articles:</h3>
-            <div className="col-lg-10 col-xl-12 mx-auto">
+            {/* <h3 className="subtitle">Related Articles:</h3> */}
+            {/* <div className="col-lg-10 col-xl-12 mx-auto">
               <ArticlesList articles={relatedArticles} />
-            </div>
+            </div> */}
+            <ArticlesList articles={relatedArticles} />
           </div>
         </div>
       </div>
