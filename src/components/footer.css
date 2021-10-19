@@ -9,7 +9,6 @@
   background-color: none;
   text-transform: uppercase;
   transition: var(--transition);
-  margin: 0;
   padding: 5px 15px;
   border-radius: 5px;
   font-weight: 400;

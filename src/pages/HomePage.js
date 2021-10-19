@@ -5,19 +5,18 @@ import articleContent from "./article-content";
 import GetInvolved from "../components/GetInvolved";
 import Gallery from "../components/Gallery";
 import Quote from "../components/Quote";
+import About from "../components/About";
 
 const HomePage = () => (
   <>
     <Hero />
-    <div className="container">
-      <div className="row">
-        <div className="col-12 mt-5">
-          <GetInvolved />
-        </div>
-        <div className="col-12 mt-5"></div>
-      </div>
-    </div>
+
+    <GetInvolved />
+
     <Gallery />
+
+    <About />
+
     <ArticlesList articles={articleContent} className="home_article_list" />
 
     <Quote />

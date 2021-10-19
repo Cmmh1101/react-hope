@@ -12,6 +12,7 @@ import "./pages/contactPage.css";
 import "./components/getInvolved.css";
 import "./components/gallery.css";
 import "./components/quote.css";
+import "./components/about.css";
 
 import {
   BrowserRouter as Router,

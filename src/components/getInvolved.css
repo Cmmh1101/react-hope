@@ -1,4 +1,11 @@
+.get-involved-section {
+  margin-top: 2rem;
+}
 .get-involved a {
+  color: var(--dark-text);
+  text-decoration: none;
+}
+.get-involved a:hover {
   color: var(--dark-text);
   text-decoration: none;
 }
